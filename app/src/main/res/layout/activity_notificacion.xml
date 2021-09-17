@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".notificacion">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="835px"
+                android:src="@drawable/bannernotio"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circulogr"
+                android:layout_marginTop="-200dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/circulope"
+                android:layout_marginTop="-268dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/checkemail"
+                android:layout_marginTop="-165dp"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Welcome!"
+                android:textColor="@color/celeste"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="160dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We have sent you an acount validation code."
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please check your email."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="335dp"
+        android:layout_height="60dp"
+        android:background="@drawable/estilobtn"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="Ok!"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:onClick="irHome"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
